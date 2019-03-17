@@ -22,3 +22,10 @@ exclude:
   - node_modules
   - .gitignore
   - scss
+
+future: true
+
+collections:
+  posts:
+    output: true
+    permalink: blog/:title/
