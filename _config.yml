@@ -1,6 +1,24 @@
+menu:
+  - url: /
+    name: main
+  - url: /blog/
+    name: blog
+  - url: /countries/
+    name: countries
+    submenu: 
+      - url: #
+        name: Australia
+      - url: #
+        name: Germany
+  - url: /gallery/
+    name: gallery
+  - url: /contacts/
+    name: contacts
+
 exclude:
   - package.json
   - package-lock.json
   - gulpfile.js
   - node_modules
   - .gitignore
+  - scss
